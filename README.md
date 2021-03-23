@@ -348,11 +348,11 @@ URL과 email addresses를 링킹하기 위해선 `< >`를 사용한다.
  *__MarkDown 문법__*
 
 ```
-<https://www.naver.com>
+<https://www.naver.com>  
 <dks9467@g.hongik.ac.kr>
 ```
 *__출력__*    
-<https://www.google.com>
+<https://www.google.com>  
 <dks9467@g.hongik.ac.kr>  
   
  <br> 

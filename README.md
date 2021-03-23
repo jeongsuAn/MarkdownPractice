@@ -362,13 +362,13 @@ URL과 email addresses를 링킹하기 위해선 `< >`를 사용한다.
  *__MarkDown 문법__*
 
 ```
-링크를 굵게 하는 방법은 `** **` 나 `__ __` 를 사용한다. __<https://www.naver.com>__
-이태릭체를 표현하기 위해서는 `* *` 나 `_ _` 를 사용한다. _<dks9467@g.hongik.ac.kr>_
+링크를 굵게 하는 방법은 `** **` 나 `__ __` 를 사용한다. __<https://www.naver.com>__  
+이태릭체를 표현하기 위해서는 `* *` 나 `_ _` 를 사용한다. _<dks9467@g.hongik.ac.kr>_  
 코드 형식으로 하기 위해서는 ` `` ` 후 `#`를 사용한다. [`jeongsuAn`](#https://github.com/jeongsuAn)
 ```
-링크를 굵게 하는 방법은 `** **` 나 `__ __` 를 사용한다. __<https://www.naver.com>__
-이태릭체를 표현하기 위해서는 `* *` 나 `_ _` 를 사용한다. _<dks9467@g.hongik.ac.kr>_
-코드 형식으로 하기 위해서는 ` `` ` 후 `#`를 사용한다. [`jeongsuAn`](#https://github.com/jeongsuAn)
+링크를 굵게 하는 방법은 `** **` 나 `__ __` 를 사용한다. __<https://www.naver.com>__  
+이태릭체를 표현하기 위해서는 `* *` 나 `_ _` 를 사용한다. _<dks9467@g.hongik.ac.kr>_  
+코드 형식으로 하기 위해서는 ` `` ` 후 `#`를 사용한다. [`jeongsuAn`](#https://github.com/jeongsuAn)  
 
 <br>
 

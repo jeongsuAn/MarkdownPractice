@@ -5,29 +5,46 @@
 제목을 만들기 위해서는 code 앞에 `#` , `##` , `###` , ... , `#######` 을 넣어 제목수준을 정할 수 있다.  
 `#`을 사용후 띄어쓰기를 해줘야 마크다운 문법이 인식한다는 것을 기억해야한다. 
 
-| Markdown 문법 | 출력 |
-| :------ | :------: |
-|`# Heading Level 1` |제목수준 1|
-|`## Heading Level 2` |제목수준 2|
-|`### Heading Level 3` |제목수준 3|
-|`#### Heading Level 4` |제목수준 4|
-|`##### Heading Level 5` |제목수준 5|
-|`###### Heading Level 6` |제목수준 6|
+*__MarkDown 문법__*
+```
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
+##### Heading Level 5
+###### Heading Level 6
+```
+*__출력__*   
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
+##### Heading Level 5
+###### Heading Level 6
 
-을 사용하면 된다.  
 
 
 또 다른 방법 으로는 
+*__MarkDown 문법__*
 ```
 Heading Level 1
 ===============
-```
-```
+
 Heading Level 2
 ---------------
+
 ```
+*__출력__*   
+
+Heading Level 1
+===============
+
+Heading Level 2
+---------------
+
 을 사용하면 heading Level 1,2를 구현할 수 있다.  
 이런식으로 두가지 표현 기법을 사용한 이유를 생각해보면 markdown문법은 txt파일로 열었을 때도 그 의미를 잘 파악할 수 있게 하는 것이 마크다운의 주 목표이기 때문이라고 생각한다.  
+
 <br> <br> <br> <br> <br>
 
 
@@ -45,32 +62,71 @@ Heading Level 2
 <br>
 
 ## 굵게 (bold)
+
 `**  **`, `__ __`을 이용하여 텍스트를 굵게 표시할 수 있다. 
-| Markdown 문법 | 출력 |
-| :------ | :------: |
-|`**bold text**`|**bold text**|
-|`__bold text__`|__bold text__|
-|`중간**만** bold` |중간**만** bold|    
+
+*__MarkDown 문법__*
+```
+**bold text**
+
+__bold text__
+
+중간**만** bold
+```
+*__출력__*   
+**bold text**
+
+__bold text__
+
+중간**만** bold  
+
 <br>
 
 ## 이탤릭체 (Italic)
-`*  *`, `_ _`을 이용하여 텍스트를 이탤릭체로 표시할 수 있다.
- | Markdown 문법 | 출력 |
-| :------ | :------: |
-|`*italic text*`|*italic text*|
-|`_italic text_`|_italic text_|
-|`중간*만* italic` |중간*만* italic|  
+`*  *`, `_ _`을 이용하여 텍스트를 이탤릭체로 표시할 수 있다.  
+
+*__MarkDown 문법__*
+```
+*italic text*
+
+_italic text_
+
+중간*만* italic
+```
+*__출력__*   
+*italic text*
+
+_italic text_
+
+중간*만* italic
+
 <br>
 
 ## 굵은 이탤릭체 (Bold and Italic)
-`***  ***`, `___ ___`을 이용하여 텍스트를 굵은 이탤릭체로 표시할 수 있다. 
-| Markdown 문법 | 출력 |
-| :------ | :------: |
-|`***bold italic***`|***bold italic***|
-|`___bold italic___`|___bold italic___|
-|`_**bold italic**_`|_**bold italic**_|
-|`*__bold italic__*`|*__bold italic__*|
-|`중간***만*** bold italic` |중간***만*** bold italic|   
+`***  ***`, `___ ___`을 이용하여 텍스트를 굵은 이탤릭체로 표시할 수 있다.  
+
+*__MarkDown 문법__*
+```
+***bold italic***
+
+___bold italic___
+
+_**bold italic**_
+
+*__bold italic__*
+
+중간***만*** bold italic
+```
+*__출력__*   
+***bold italic***
+
+___bold italic___
+
+_**bold italic**_
+
+*__bold italic__*
+
+중간***만*** bold italic
 
 <br> <br>  <br> <br> <br>
 
